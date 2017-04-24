@@ -220,6 +220,10 @@ img {
 .masthead {
   padding: 0px 0;
   border-bottom: 0px solid #eee;
+  background: #795841 none repeat scroll 0 0;
+}
+.masthead h1, .masthead h2 {
+  color: #fff !important;
 }
 @media screen and (max-width: 640px) {
   .masthead {
@@ -360,6 +364,19 @@ footer a {
 
 .main-heading {
   text-align: center;
+}
+
+.main-heading a:hover {
+  color: #dbdbdb;
+}
+
+.coffee-top {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 25px;
+  text-align: center;
+  width: 50px;
 }
 
 .highlight {

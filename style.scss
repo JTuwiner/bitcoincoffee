@@ -158,6 +158,11 @@ img {
 .masthead {
   padding: 0px 0;
   border-bottom: 0px solid $lightGray;
+  background: #795841 none repeat scroll 0 0;
+
+  h1, h2 {
+	  color: #fff !important;
+  }
 
   @include mobile {
     text-align: center;
@@ -304,6 +309,19 @@ footer {
 
 .main-heading {
 	text-align: center;
+}
+
+.main-heading a:hover {
+	color: #dbdbdb;
+}
+
+.coffee-top {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 25px;
+    text-align: center;
+    width: 50px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
